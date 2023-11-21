@@ -1,0 +1,17 @@
+.board{
+    background-color:white;
+    height: 830px ;
+    width: 835px;
+    border: 5px solid gray;
+    border-bottom:none;
+}
+.white{
+    height: 100px;
+    width:100px;
+    background-color: white;
+}
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

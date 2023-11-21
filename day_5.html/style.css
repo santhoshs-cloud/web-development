@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns:50px 50px 50px;
+    grid-template-areas: 
+    "head head head"
+    "main empty side"
+    "foot foot foot"
+    ;
+   background-color: whitesmoke;
+}
+.head{
+    grid-area: head;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+.main{
+    grid-area: main;
+    background-color: blue;
+    border-radius: 5px;
+}
+.empty{
+    grid-area: empty;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+.sidebar{
+    grid-area: side;
+    background-color: darkred;
+    border-radius: 5px;
+}
+.footer{
+    grid-area: foot;
+    background-color: yellow;
+    border-radius: 5px;
+}
